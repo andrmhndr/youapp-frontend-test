@@ -115,8 +115,6 @@ void main() {
         await tester.pumpAndSettle();
 
         expect(find.byType(InitialPage), findsOneWidget);
-        // expect(tester.getSemantics(find.byType(Text).last),
-        //     matchesSemantics(label: interest));
       },
     );
   });
