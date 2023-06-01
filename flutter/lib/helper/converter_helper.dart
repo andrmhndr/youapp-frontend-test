@@ -14,9 +14,9 @@ class ConverterHelper {
     return '$formattedDate (Age ${calculateAge(value)})';
   }
 
-  static digitFormat(int value) {
-    return value.toString().length == 1 ? '0$value' : value.toString();
-  }
+  // static digitFormat(int value) {
+  //   return value.toString().length == 1 ? '0$value' : value.toString();
+  // }
 
   static calculateAge(DateTime birthDate) {
     DateTime currentDate = DateTime.now();
